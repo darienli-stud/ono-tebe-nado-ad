@@ -8,6 +8,7 @@ main {
   width: 100%;
   margin: 0 auto;
 }
+
 .header {  
   display: grid;
   grid-template-columns:1.51fr 2fr 1.5fr;
@@ -16,15 +17,12 @@ main {
 }
 
 .menu_links {
-  /* чтобы в одну строку */ 
-  display: flex; 
-  gap: 32px; 
-  /* делаем расстояние между пунктами меню */ 
+  display: flex;
+  gap: 32px;
 }
 
 .link_list_item {
-  /* делаем вместо точек кружочки */ 
-  list-style: circle; 
+  list-style: circle;
 }
 
 .main_link_marker {
@@ -33,11 +31,11 @@ main {
 
 .header_link {
   font-size: 18px;
-  white-space: nowrap; /* запрещаем тексту переноситься на другую строку */
+  white-space: nowrap;
 }
 
 .text-link:hover {
-  color: #D2691E; /* при наведении курсора меняем цвет */
+  color: #D2691E;
 }
 
 .header_link_active {
@@ -126,6 +124,7 @@ main {
 .letter_spacing {
   letter-spacing: 60px;
 }
+
 .remove_spacing {
   letter-spacing: normal;
 }
@@ -160,11 +159,11 @@ main {
   background-color: transparent;
   cursor: pointer;
 }
+
 .cover_button:hover {
   color: #000000;
   background-color: #FFF;
 }
-
 
 .lots {
   padding: 0 50px;
