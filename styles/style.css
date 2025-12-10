@@ -9,7 +9,7 @@ main {
   margin: 0 auto;
 }
 
-.header {  
+.header {
   display: grid;
   grid-template-columns:1.51fr 2fr 1.5fr;
   align-items:center;
