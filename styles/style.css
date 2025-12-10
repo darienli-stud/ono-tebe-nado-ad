@@ -8,7 +8,6 @@ main {
   width: 100%;
   margin: 0 auto;
 }
-
 .header {  
   display: grid;
   grid-template-columns:1.51fr 2fr 1.5fr;
@@ -17,12 +16,15 @@ main {
 }
 
 .menu_links {
-  display: flex; /* чтобы в одну строку */ 
-  gap: 32px; /* делаем расстояние между пунктами меню */ 
+  /* чтобы в одну строку */ 
+  display: flex; 
+  gap: 32px; 
+  /* делаем расстояние между пунктами меню */ 
 }
 
 .link_list_item {
-  list-style: circle; /* делаем вместо точек кружочки */ 
+  /* делаем вместо точек кружочки */ 
+  list-style: circle; 
 }
 
 .main_link_marker {
@@ -57,19 +59,19 @@ main {
   font-style: inherit;
 }
 
-.header_address{
+.header_address {
   justify-self: end;
   font-style: inherit;
 }
 
-.address_item{
+.address_item {
   display: block;
   font-size: 18px;
   line-height: 1.35;
   text-underline-position: under;
 }
 
-.address_text{
+.address_text {
   font-size: 18px;
   line-height: 1.35;
 }
